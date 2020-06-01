@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nokia/DRG_sprout
 
 PRODUCT_COPY_FILES += \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
     vendor/nokia/DRG_sprout/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/nokia/DRG_sprout/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/nokia/DRG_sprout/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
@@ -84,6 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
     vendor/nokia/DRG_sprout/proprietary/product/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/dpmapi.xml \
     vendor/nokia/DRG_sprout/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
+    vendor/nokia/DRG_sprout/proprietary/product/etc/permissions/qti_telephony_hidl_wrapper.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti_telephony_hidl_wrapper.xml \
+    vendor/nokia/DRG_sprout/proprietary/product/etc/permissions/qti_telephony_utils.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti_telephony_utils.xml \
     vendor/nokia/DRG_sprout/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
     vendor/nokia/DRG_sprout/proprietary/product/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar \
     vendor/nokia/DRG_sprout/proprietary/product/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qti.dpmframework.jar \
@@ -1946,7 +1949,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
-    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
