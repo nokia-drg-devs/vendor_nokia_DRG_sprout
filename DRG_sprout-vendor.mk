@@ -444,16 +444,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/android.hardware.nfc@1.2-service.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/android.hardware.nfc@1.2-service.sec.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.DRG.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.DRG.nfc.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.fingerprint.elan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.elan.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.fingerprint.focal9362_tas.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.focal9362_tas.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.fingerprint.gxfp3208_b2n.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.gxfp3208_b2n.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.fingerprint.gxfp3258_drg.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.gxfp3258_drg.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.fingerprint.gxfp5288_c1n.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.gxfp5288_c1n.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.nfc.nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.nxp.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.nfc.sec.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.sat.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.sat.nfc.rc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/init.vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vibrator.rc \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/vendor.nxp.hardware.nfc@1.2-service.rc \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/init/imsdatadaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdatadaemon.rc \
@@ -1550,7 +1540,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.1.so \
-    vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.dyndds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.qmi@1.0.so \
