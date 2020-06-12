@@ -1902,7 +1902,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/nokia/DRG_sprout/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/nokia/DRG_sprout/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc \
-    vendor/nokia/DRG_sprout/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc
+    vendor/nokia/DRG_sprout/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
+		vendor/nokia/DRG_sprout/proprietary/usr/keylayout/ff-key.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ff-key.kl \
+    vendor/nokia/DRG_sprout/proprietary/usr/keylayout/goodix_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp.kl \
+		vendor/nokia/DRG_sprout/proprietary/usr/keylayout/elan.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/elan_fp.kl \
+		vendor/nokia/DRG_sprout/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
+		vendor/nokia/DRG_sprout/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
+		vendor/nokia/DRG_sprout/proprietary/vendor/etc/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+		vendor/nokia/DRG_sprout/proprietary/vendor/etc/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+		vendor/nokia/DRG_sprout/proprietary/vendor/etc/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy
 
 PRODUCT_PACKAGES += \
     libantradio \
