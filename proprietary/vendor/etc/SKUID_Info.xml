@@ -12,10 +12,10 @@
     </Field-Table>
 
     <Field-Table name="Carrier">
- <item id="0S" >China Telecom</item>
- <item id="1L" >SK Telecom</item>
- <item id="1X" >SK Telecom</item>
- <item id="1W" >SK Telecom</item>
+	<item id="0S" >China Telecom</item>
+	<item id="1L" >SK Telecom</item>
+	<item id="1X" >SK Telecom</item>
+	<item id="1W" >SK Telecom</item>
     </Field-Table>
 
     <Field-Table name="Locale">
@@ -102,7 +102,7 @@
         <item id="GF" >FRENCH GUIANA</item>
         <item id="GH" >GHANA</item>
         <item id="GI" >GIBRALTAR</item>
-		<item id="GL" >GREENLAND</item>
+        <item id="GL" >GREENLAND</item>
         <item id="GM" >GAMBIA</item>
         <item id="GN" >GUINEA</item>
         <item id="GP" >GUADELOUPE</item>
