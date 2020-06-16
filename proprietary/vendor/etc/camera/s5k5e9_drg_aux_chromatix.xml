@@ -11,12 +11,14 @@ CommonChromatixInfo:
 	Ex:- Preview, Snapshot, ZSL, HFR, HDR, Video, Liveshot for ISP, CPP,
 		3A and SW PostProc.
 	Entries in this node are common for all sensor modes.
+
 ResolutionChromatixInfo:
 	ResolutionChromatixInfo is the information about chromatix needed for
 		various use cases.
 	Ex:- Preview, Snapshot, ZSL, HFR, HDR, Video, Liveshot for ISP, CPP,
 		3A and SW PostProc.
 	Entries in this node are specific to sensor resolution.
+
 ChromatixName:
 	Contains the list of chromatix names for all modules.
 	special_mode_mask:
@@ -32,6 +34,7 @@ ChromatixName:
 		It is the sensor resolution index for which chromatix libraries
 			will be choosen.
 		It is applicable only in ResolutionChromatixInfo.
+
 ISPCommon :
 	Common tuning library name for ISP
 ISPPreview :
@@ -52,6 +55,7 @@ A3Preview :
 	Preview tuning library for 3A
 A3Video :
 	Video tuning library for 3A
+
 Order of Resolution Pick:
 	Assume the current sensor mode is "r" and special mode mask is "s".
 	Chromatix for a module and type is choosen in this order till we find a
@@ -63,6 +67,7 @@ Order of Resolution Pick:
 		is "r" and special_mode_mask is "0".
 	4) From CommonChromatixInfo node for which special_mode_mask is "0".
 	5) NULL is returned if we dont find in any of the above cases.
+
 special_mode_mask values:
 	SENSOR_SPECIAL_MODE_NONE = 0,
 	SENSOR_SPECIAL_MODE_FLASH = 1,
@@ -124,3 +129,4 @@ special_mode_mask values:
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
+
