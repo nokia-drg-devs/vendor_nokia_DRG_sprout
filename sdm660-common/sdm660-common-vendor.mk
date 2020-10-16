@@ -497,8 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev_tas.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_tas.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/test_sensor_0.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/wbg_bt.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_bt.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/wbg_wifi.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_wifi.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -1720,4 +1718,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon
+    WfdCommon \
+    android.hardware.gnss@2.0-service-qti \
+    vendor.qti.gnss@3.0-service
