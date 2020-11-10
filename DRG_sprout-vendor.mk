@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/DRG/sdm660-snd-card-drg/Headset_cal.acdb \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/DRG/sdm660-snd-card-drg/Speaker_cal.acdb \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/acdbdata/DRG/sdm660-snd-card-drg/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/DRG/sdm660-snd-card-drg/workspaceFile.qwsp \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
