@@ -1116,7 +1116,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml \
-    vendor/nokia/DRG_sprout/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.1-service.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
