@@ -683,6 +683,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.0.so \
@@ -1108,6 +1109,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/permissions/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml \
+    vendor/nokia/DRG_sprout/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
     vendor/nokia/DRG_sprout/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9330.xml \
@@ -1145,8 +1147,22 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/elanfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b01 \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/elanfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.mdt \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_config.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config.cfg \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_config_hlt.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt.cfg \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_config_oflim.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_oflim.cfg \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_config_truly.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_truly.cfg \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_firmware_hlt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_firmware_oflim.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_oflim.bin \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/goodix_firmware_truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_truly.bin \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b00 \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b01 \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b02 \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b03 \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b04 \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b05 \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b06 \
+    vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b07 \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/gxfp3258_drg.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.mdt \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/nokia/DRG_sprout/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
@@ -1383,10 +1399,16 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.broadcastradio@1.0-impl.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/hw/fingerprint.gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3258_drg.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libgf_ca_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)lib64/libgf_ca_gxfp3258_drg.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libgf_hal_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)lib64/libgf_hal_gxfp3258_drg.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)lib64/libqfp-service.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so \
+    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
